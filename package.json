@@ -1,0 +1,16 @@
+{
+    "private": true,
+    "workspaces": {
+        "packages": [
+            "./common",
+            "./service-1",
+            "./service-2"
+        ]
+    },
+    "scripts": {
+        "lint": "eslint . "
+    },
+    "devDependencies": {
+        "eslint": "^8.47.0"
+    }
+}
